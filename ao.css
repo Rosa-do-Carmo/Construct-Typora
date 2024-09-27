@@ -84,8 +84,7 @@ h3 {
 }
 
 h3 {
-	border-left: 1vw var(--col3) solid;
-	background-color: var(--col2);
+	border-left: 1vw var(--col1) solid;
 	border-bottom: none;
 	color: var(--col1);
 }

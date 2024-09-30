@@ -26,6 +26,10 @@ html {
 		linear-gradient(to bottom, grey 0px, transparent 1px);
 }
 
+.native-window content {
+	top: -10vh;
+}
+
 content {
 	margin-right: auto;
 	margin-left: auto;
@@ -84,7 +88,8 @@ h3 {
 }
 
 h3 {
-	border-left: 1vw var(--col1) solid;
+	border-left: 1vw var(--col3) solid;
+	background-color: var(--col2);
 	border-bottom: none;
 	color: var(--col1);
 }
@@ -100,8 +105,12 @@ ol {
 	border-right: 5px var(--col1) solid;
 	border-bottom: 5px var(--col2) solid;
 	border-left: 5px var(--col2) solid;
+	background-color: var(--col2);
 	padding-right: 10px;
 	list-style-position: outside;
+	width: fit-content;
+	margin-right: -8vw;
+	margin-left: auto;
 }
 
 
@@ -174,6 +183,7 @@ h5,
 h6 {
 	margin-bottom: 2vh;
 	font-weight: bold;
+	background-color: var(--col2);
 }
 
 code,

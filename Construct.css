@@ -33,6 +33,7 @@ html {
 content {
 	margin-right: auto;
 	margin-left: auto;
+	filter: drop-shadow(0px 0px 20vw var(--col3));
 }
 
 body {
@@ -101,7 +102,7 @@ a {
 
 ul,
 ol {
-	border-top: 5px var(--col3) solid;
+	/* border-top: 5px var(--col3) solid; */
 	border-right: 5px var(--col1) solid;
 	border-bottom: 5px var(--col2) solid;
 	border-left: 5px var(--col2) solid;
@@ -109,7 +110,7 @@ ol {
 	padding-right: 10px;
 	list-style-position: outside;
 	width: fit-content;
-	margin-right: -8vw;
+	max-width: ;
 	margin-left: auto;
 }
 
@@ -215,6 +216,9 @@ tt {
 		width: 100vw;
 		margin: 10vh 0;
 	}
+	content {
+		filter: none;
+	}
 
 	#write {
 		width: 100vw;
@@ -222,5 +226,11 @@ tt {
 	p {
 		width: inherit !important;
 		max-width: 95vw;
+	}
+	h2, h3 {
+		margin-left: 0vw;
+	}
+	h1 {
+		margin-right: 1vw;
 	}
 }

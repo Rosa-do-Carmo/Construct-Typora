@@ -187,6 +187,10 @@ h6 {
 	background-color: var(--col2);
 }
 
+li p {
+	text-align: left;
+}
+
 code,
 .md-fences {
 	background-color: var(--col4);
